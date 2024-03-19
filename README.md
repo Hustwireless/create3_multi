@@ -6,6 +6,10 @@ This is a ROS 2 simulation stack for the [iRobot® Create® 3](https://edu.irobo
 
 Have a look at the [Create® 3 documentation](https://iroboteducation.github.io/create3_docs/) for more details on the ROS 2 interfaces exposed by the robot.
 
+
+### Video Demo
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/mJr7kDu76k8/0.jpg)](https://www.youtube.com/watch?v=mJr7kDu76k8)
+
 ### How to run
 
 #### Launch two robots
