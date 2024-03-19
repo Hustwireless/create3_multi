@@ -1,0 +1,7 @@
+[submodule "create3_sim"]
+	path = create3_sim
+	url = git@github.com:Hustwireless/create3_sim.git
+	branch = multi
+[submodule "gazebo_ros_pkgs"]
+	path = gazebo_ros_pkgs
+	url = git@github.com:Hustwireless/gazebo_ros_pkgs.git
