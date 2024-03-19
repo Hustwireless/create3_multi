@@ -10,6 +10,18 @@ Have a look at the [Create® 3 documentation](https://iroboteducation.github.io/
 ### Video Demo
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/mJr7kDu76k8/0.jpg)](https://www.youtube.com/watch?v=mJr7kDu76k8)
 
+### How to build
+```bash
+mkdir -p ~/create3_ws/src
+cd ~/create3_ws/src
+git clone --recurse-submodules git@github.com:Hustwireless/create3_multi.git
+sudo apt-get update
+rosdep install --from-path src -yi
+export IGNITION_VERSION=fortress
+colcon build --symlink-install
+source install/local_setup.bash
+```
+
 ### How to run
 
 #### Launch two robots
