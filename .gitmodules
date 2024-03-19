@@ -5,3 +5,4 @@
 [submodule "gazebo_ros_pkgs"]
 	path = gazebo_ros_pkgs
 	url = git@github.com:Hustwireless/gazebo_ros_pkgs.git
+	branch = ros2
